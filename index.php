@@ -42,9 +42,9 @@ $the_user_ks_to_use = '';
                 dynamicChunkSizeThreshold: 50000000,
                 dynamixChunkSizeMaxTime: 30,
 
-                host: "https://www.kaltura.com",
-	            apiURL: "https://www.kaltura.com/api_v3/",
-                url: "https://www.kaltura.com/api_v3/?service=uploadToken&action=upload&format=1",
+                host: "https://video.panda-os.com",
+	            apiURL: "https://video.panda-os.com/api_v3/",
+                url: "https://video.panda-os.com/api_v3/?service=uploadToken&action=upload&format=1",
                 ks: '<?php echo $the_user_ks_to_use; ?>',
                 fileTypes: '*.mts;*.MTS;*.qt;*.mov;*.mpg;*.avi;*.mp3;*.m4a;*.wav;*.mp4;*.wma;*.vob;*.flv;*.f4v;*.asf;*.qt;*.mov;*.mpeg;*.avi;*.wmv;*.m4v;*.3gp;*.jpg;*.jpeg;*.bmp;*.png;*.gif;*.tif;*.tiff;*.mkv;*.QT;*.MOV;*.MPG;*.AVI;*.MP3;*.M4A;*.WAV;*.MP4;*.WMA;*.VOB;*.FLV;*.F4V;*.ASF;*.QT;*.MOV;*.MPEG;*.AVI;*.WMV;*.M4V;*.3GP;*.JPG;*.JPEG;*.BMP;*.PNG;*.GIF;*.TIF;*.TIFF;*.MKV;*.AIFF;*.arf;*.ARF;*.webm;*.WEBM;*.rm;*.RM;*.ra;*.RA;*.RV;*.rv;*.aiff',
                 context: '',
